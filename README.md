@@ -80,6 +80,24 @@ Works on all modern browsers:
 - Safari
 - Edge
 
+## GitHub repository
+
+This project is hosted on GitHub: **[sjmrushton-ai/SophieRushton-Website](https://github.com/sjmrushton-ai/SophieRushton-Website)**
+
+Local `git` is configured with that repo as `origin`. From your project folder, upload commits with:
+
+```bash
+git push -u origin main
+```
+
+(GitHub will prompt you to sign in the first time—browser, Personal Access Token, or [GitHub CLI](https://cli.github.com/) depending on your setup.)
+
+**GitHub Pages:** In the repo on GitHub, go to **Settings → Pages**, set **Source** to **Deploy from a branch**, choose **`main`** and **`/ (root)`**, then save. Your public site URL will be:
+
+**https://sjmrushton-ai.github.io/SophieRushton-Website/**
+
+(Ensure `.nojekyll` is in the repo root if you use plain static HTML; it should be committed with the rest of the site.)
+
 ## Next Steps
 
 - Add your own images to replace the gradient placeholders
