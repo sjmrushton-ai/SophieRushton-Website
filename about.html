@@ -3,81 +3,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="refresh" content="0;url=index.html">
-    <title>About | SOPH RUSHTON</title>
+    <meta name="description" content="About Soph Rushton, a pattern artist working between Amsterdam and London.">
+    <title>About | Soph Rushton</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <nav class="navbar">
-        <div class="container">
-            <div class="nav-brand">SOPH RUSHTON</div>
-            <div class="nav-about">
-                <a href="about.html">ABOUT</a>
-            </div>
-            <ul class="nav-menu">
-                <li><a href="index.html">HOME</a></li>
-                <li><a href="press.html">PRESS</a></li>
-                <li><a href="shop.html">SHOP</a></li>
-                <li><a href="inspiration.html">INSPIRATION</a></li>
-                <li><a href="contact.html">CONTACT</a></li>
-            </ul>
-            <button class="menu-toggle" aria-label="Toggle menu">
+    <header class="site-header">
+        <div class="container nav-wrap">
+            <a class="brand" href="index.html">Soph Rushton</a>
+            <button class="menu-toggle" aria-expanded="false" aria-controls="primary-nav" aria-label="Toggle menu">
                 <span></span>
                 <span></span>
                 <span></span>
             </button>
+            <nav id="primary-nav" class="site-nav" aria-label="Primary">
+                <a href="index.html">Home</a>
+                <a href="about.html" aria-current="page">About</a>
+                <a href="contact.html">Contact</a>
+            </nav>
         </div>
-    </nav>
+    </header>
 
-    <section class="page-hero">
-        <div class="container">
-            <h1 class="page-title">About</h1>
-        </div>
-    </section>
-
-    <section class="about-page-section">
-        <div class="container">
-            <div class="about-page-content">
-                <div class="about-page-left">
-                    <h2 class="about-heading">About</h2>
-                </div>
-                <div class="about-page-right">
-                    <p>My work explores biotic pattern design as a way of understanding and visualising how living systems grow, adapt, and organise themselves. I am interested in patterns not simply as decoration, but as systems of logic, rhythm, and meaning that exist across nature, science, and human history.</p>
-                    <p>At the core of my practice is a dialogue between structure and growth. I draw on Ars Qubica, with its emphasis on static geometry, grids, symmetry, repetition, and architectural thinking, to establish clarity and order. Alongside this, I use Fibonacci principles, which introduce dynamic growth, spirals, ratios, recursion, and organic expansion. Together, these approaches allow me to create patterns that are both precise and alive, grounded in logic while remaining responsive and fluid.</p>
-                    <p>My work is informed by scientific shapes and forms, including cellular structures, branching networks, and wave dynamics, as well as by traditional pattern systems developed across cultures. These include Japanese Edo-period patterns, the repetition and rhythmic sequencing found in Japanese ukiyo-e animal imagery, Aboriginal Australian pattern languages, African mud cloth or Bogolanfini, and Batik traditions. In each of these, repetition and variation are used to express movement, environment, identity, and connection to the natural world.</p>
-                    <p>An important aspect of my practice is allowing designs to show signs of age, imperfection, and process. Rather than aiming for flawless surfaces, I embrace irregularities, wear, and variation as evidence of time, making, and use. Each pattern carries a sense of journey, reflecting both its cultural lineage and its development through experimentation, adaptation, and change.</p>
-                    <p>Many of these pattern languages have been overlooked or reduced to surface aesthetics over time. A central aim of my work is to bring these traditions back into conversation, not by copying them, but by reactivating their underlying principles and translating them into a contemporary context. Through this process, I seek to honour ancestral systems of making while extending them forward, giving them renewed relevance and meaning today.</p>
-                    <p>My work sits at the intersection of art, science, and cultural memory, creating patterns that are intellectually legible, biologically informed, and visually engaging, while remaining open to time, touch, and transformation.</p>
-                </div>
+    <main class="page-main">
+        <section class="section">
+            <div class="container prose">
+                <p class="eyebrow">About</p>
+                <h1>Every pattern begins somewhere small.</h1>
+                <p>
+                    Soph Rushton is an artist working between Amsterdam and London, exploring how patterns emerge from living systems.
+                    Her work studies growth, rhythm, and transformation through carefully structured visual compositions.
+                </p>
+                <p>
+                    Drawing from natural logic and historical textile languages, Soph builds pieces that hold both emotion and order.
+                    The result is artwork that feels timeless, tactile, and deeply personal.
+                </p>
+                <p>
+                    Her studio creates bespoke commissions for individuals and collaborators looking for pattern work with meaning:
+                    designs that do more than decorate, and instead carry memory, identity, and connection.
+                </p>
             </div>
-        </div>
-    </section>
+        </section>
+    </main>
 
-    <section class="about-page-section section-alt">
-        <div class="container">
-            <div class="about-values">
-                <div class="value-item">
-                    <h3>Organic Inspiration</h3>
-                    <p>Every pattern begins with observation of the natural world, capturing the essence of organic forms and structures.</p>
-                </div>
-                <div class="value-item">
-                    <h3>Timeless Design</h3>
-                    <p>We create patterns that transcend trends, focusing on enduring beauty and classic elegance.</p>
-                </div>
-                <div class="value-item">
-                    <h3>Sustainable Practice</h3>
-                    <p>Our commitment to sustainability extends to our design process and material choices.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <footer class="footer">
-        <div class="container">
-            <p>&copy; 2024 SOPH RUSHTON. All rights reserved.</p>
+    <footer class="site-footer">
+        <div class="container footer-wrap">
+            <p>Amsterdam & London</p>
+            <a href="mailto:sjmrushton@gmail.com">sjmrushton@gmail.com</a>
         </div>
     </footer>
 
