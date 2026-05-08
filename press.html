@@ -3,82 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="refresh" content="0;url=index.html">
-    <title>Press | SOPH RUSHTON</title>
+    <meta name="description" content="Press coverage featuring Soph Rushton.">
+    <title>Press | Soph Rushton</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&family=UnifrakturMaguntia&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <nav class="navbar">
-        <div class="container">
-            <div class="nav-brand">SOPH RUSHTON</div>
-            <div class="nav-about">
-                <a href="about.html">ABOUT</a>
-            </div>
-            <ul class="nav-menu">
-                <li><a href="index.html">HOME</a></li>
-                <li><a href="press.html">PRESS</a></li>
-                <li><a href="shop.html">SHOP</a></li>
-                <li><a href="inspiration.html">INSPIRATION</a></li>
-                <li><a href="contact.html">CONTACT</a></li>
-            </ul>
-            <button class="menu-toggle" aria-label="Toggle menu">
+    <header class="site-header">
+        <div class="container nav-wrap">
+            <a class="brand" href="index.html" aria-label="Home">
+                <img src="assets/logo.png" alt="Soph Rushton logo">
+            </a>
+            <button class="menu-toggle" aria-expanded="false" aria-controls="primary-nav" aria-label="Toggle menu">
                 <span></span>
                 <span></span>
                 <span></span>
             </button>
+            <nav id="primary-nav" class="site-nav" aria-label="Primary">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="press.html" aria-current="page">Press</a>
+                <a href="contact.html">Contact</a>
+            </nav>
         </div>
-    </nav>
+    </header>
 
-    <section class="page-hero">
-        <div class="container">
-            <h1 class="page-title">Press</h1>
-        </div>
-    </section>
+    <main class="page-main">
+        <section class="section">
+            <div class="container prose press-prose">
+                <p class="eyebrow">Publications</p>
+                <h1 class="title-artwork">
+                    <img src="assets/titles/press-title.svg" alt="Press">
+                </h1>
 
-    <section class="press-section">
-        <div class="container">
-            <div class="press-content">
-                <div class="press-left">
-                    <h2 class="press-heading">Featured In</h2>
-                </div>
-                <div class="press-right">
-                    <div class="press-item">
-                        <a href="https://www.telegraph.co.uk/royal-family/2023/05/07/bruce-oldfield-queen-camilla-gown-designer/" target="_blank" rel="noopener noreferrer" class="press-logo-link">
-                            <div class="press-logo">
-                                <img src="telegraph-logo.png" alt="The Telegraph" class="telegraph-logo-img" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
-                                <svg class="telegraph-logo-svg" style="display:none;" width="220" height="45" viewBox="0 0 220 45" xmlns="http://www.w3.org/2000/svg">
-                                    <text x="5" y="32" font-family="'UnifrakturMaguntia', 'Times New Roman', serif" font-size="32" font-weight="400" fill="#2C2C2C" letter-spacing="3px">The Telegraph</text>
-                                </svg>
-                            </div>
-                        </a>
-                        <p class="press-date">May 7, 2023</p>
-                        <h3 class="press-article-title">Bruce Oldfield: 'The Queen wanted what everyone wants in a dress – allure'</h3>
-                        <a href="https://www.telegraph.co.uk/royal-family/2023/05/07/bruce-oldfield-queen-camilla-gown-designer/" target="_blank" rel="noopener noreferrer" class="press-link">Read Article →</a>
-                    </div>
-                    <div class="press-item">
-                        <h3>J-M Gallery</h3>
-                        <p class="press-date">Exhibition</p>
-                        <h3 class="press-article-title">The Sequence of Repetition</h3>
-                        <p class="press-location">London, December 2023</p>
-                        <a href="https://www.j-m.gallery/exhibition/the-sequence-of-repetition" target="_blank" rel="noopener noreferrer" class="press-link">View Exhibition →</a>
-                    </div>
-                    <div class="press-item">
-                        <h3>Publication Name</h3>
-                        <p class="press-date">Date</p>
-                        <p>Article title or description about the feature.</p>
-                        <a href="#" class="press-link">Read Article →</a>
-                    </div>
-                </div>
+                <article class="press-entry">
+                    <h2 class="press-publication">
+                        <a href="https://www.telegraph.co.uk/royal-family/2023/05/07/bruce-oldfield-queen-camilla-gown-designer/?fbclid=PAdGRleARq9uJleHRuA2FlbQIxMQBzcnRjBmFwcF9pZA8xMjQwMjQ1NzQyODc0MTQAAae9IBug12gDZquszMjKohCfJnE8ywJJ-LZ0jz9wajAZwoQmrV5FtvkHlcEJtA_aem_oH9tYXEU-1AY4kCnBP0KFA" target="_blank" rel="noopener noreferrer">The Telegraph</a>
+                    </h2>
+                    <p class="press-article-title">Bruce Oldfield: &lsquo;The Queen wanted what everyone wants in a dress &ndash; allure&rsquo;</p>
+                    <p class="press-year">2023</p>
+                </article>
             </div>
-        </div>
-    </section>
+        </section>
+    </main>
 
-    <footer class="footer">
-        <div class="container">
-            <p>&copy; 2024 SOPH RUSHTON. All rights reserved.</p>
+    <footer class="site-footer">
+        <div class="container footer-wrap">
+            <p>Amsterdam & London</p>
+            <a class="email-link" href="mailto:sjmrushton@gmail.com">sjmrushton@gmail.com</a>
         </div>
     </footer>
 

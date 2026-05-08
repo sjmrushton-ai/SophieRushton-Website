@@ -13,7 +13,9 @@
 <body>
     <header class="site-header">
         <div class="container nav-wrap">
-            <a class="brand" href="index.html">Soph Rushton</a>
+            <a class="brand" href="index.html" aria-label="Home">
+                <img src="assets/logo.png" alt="Soph Rushton logo">
+            </a>
             <button class="menu-toggle" aria-expanded="false" aria-controls="primary-nav" aria-label="Toggle menu">
                 <span></span>
                 <span></span>
@@ -22,6 +24,7 @@
             <nav id="primary-nav" class="site-nav" aria-label="Primary">
                 <a href="index.html">Home</a>
                 <a href="about.html" aria-current="page">About</a>
+                <a href="press.html">Press</a>
                 <a href="contact.html">Contact</a>
             </nav>
         </div>
@@ -31,19 +34,30 @@
         <section class="section">
             <div class="container prose">
                 <p class="eyebrow">About</p>
-                <h1>Every pattern begins somewhere small.</h1>
+                <h1 class="title-artwork">
+                    <img src="assets/titles/about-title.svg" alt="Every pattern begins somewhere small.">
+                </h1>
                 <p>
-                    Soph Rushton is an artist working between Amsterdam and London, exploring how patterns emerge from living systems.
-                    Her work studies growth, rhythm, and transformation through carefully structured visual compositions.
+                    Soph Rushton is an artist whose work explores the quiet languages found throughout the natural world. Based between Amsterdam and London, she studied at the University of the Arts London (UAL) and has worked as a freelance pattern and textile designer for the past 15 years. Her practice begins with a curiosity about how living systems grow, organise, and repeat, and how these rhythms can be translated into visual form.
                 </p>
                 <p>
-                    Drawing from natural logic and historical textile languages, Soph builds pieces that hold both emotion and order.
-                    The result is artwork that feels timeless, tactile, and deeply personal.
+                    Organic structures found in nature are a continual source of inspiration. Branching formations, cellular systems, and spiralling growth sequences such as the Fibonacci sequence influence the way forms develop and expand within her work. Through repetition, symmetry, and gradual transformation, each composition emerges with its own rhythm, balancing structure with the subtle unpredictability of natural processes.
                 </p>
                 <p>
-                    Her studio creates bespoke commissions for individuals and collaborators looking for pattern work with meaning:
-                    designs that do more than decorate, and instead carry memory, identity, and connection.
+                    Her practice is also informed by Indigenous textile traditions such as Amazonian kene and Andean tocapu, where geometry functions as a system of knowledge and identity, carrying stories, ecological understanding, and cultural memory.
                 </p>
+                <p>
+                    Today, many of these textile languages are slowly disappearing. Urban migration draws younger generations away from traditional practices, while industrial production replaces the time and care of hand weaving. Tourism markets often simplify complex visual systems, detaching them from their deeper meaning. At the same time, climate change and deforestation threaten the plants and fibres these traditions depend upon.
+                </p>
+                <p>
+                    At the centre of Soph’s practice is the creation of bespoke works for individuals. Each piece becomes a personal visual language shaped by memory, identity, and connection, incorporating initials, symbols, and motifs drawn from a client’s life and experiences.
+                </p>
+                <p>
+                    Working across ink, print, embroidery, and goldwork, Soph creates pieces that hold rhythm, story, and continuity.
+                </p>
+                <figure class="about-lower-image">
+                    <img src="assets/about-lower-artwork.png" alt="Abstract dark green segmented motif artwork by Soph Rushton">
+                </figure>
             </div>
         </section>
     </main>
@@ -51,7 +65,7 @@
     <footer class="site-footer">
         <div class="container footer-wrap">
             <p>Amsterdam & London</p>
-            <a href="mailto:sjmrushton@gmail.com">sjmrushton@gmail.com</a>
+            <a class="email-link" href="mailto:sjmrushton@gmail.com">sjmrushton@gmail.com</a>
         </div>
     </footer>
 

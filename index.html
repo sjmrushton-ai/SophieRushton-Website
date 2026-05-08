@@ -13,7 +13,9 @@
 <body>
     <header class="site-header">
         <div class="container nav-wrap">
-            <a class="brand" href="index.html">Soph Rushton</a>
+            <a class="brand" href="index.html" aria-label="Home">
+                <img src="assets/logo.png" alt="Soph Rushton logo">
+            </a>
             <button class="menu-toggle" aria-expanded="false" aria-controls="primary-nav" aria-label="Toggle menu">
                 <span></span>
                 <span></span>
@@ -22,6 +24,7 @@
             <nav id="primary-nav" class="site-nav" aria-label="Primary">
                 <a href="index.html" aria-current="page">Home</a>
                 <a href="about.html">About</a>
+                <a href="press.html">Press</a>
                 <a href="contact.html">Contact</a>
             </nav>
         </div>
@@ -30,26 +33,27 @@
     <main>
         <section class="hero">
             <div class="container home-editorial">
-                <h1 class="home-main-headline">A living cartography of pattern.</h1>
+                <h1 class="home-main-headline title-artwork">
+                    <img src="assets/titles/home-title.svg" alt="A living cartography of pattern.">
+                </h1>
+
+                <figure class="home-artwork">
+                    <img src="assets/artwork.png" alt="Mixed media artwork in deep green and gold tones">
+                </figure>
+                <p class="home-artwork-price">EUR 1400</p>
 
                 <p>
-                    Soph Rushton is an artist exploring the space between nature, memory, and indigenous textile cosmologies.
-                    Her work traces how patterns grow, repeat, branch, and transform — becoming visual systems that feel alive.
+                    Soph Rushton is an artist exploring the relationship between nature, memory, and Indigenous textile cosmologies. Her work draws from biological structures, symbolic language, Amazonian kene, Andean tocapu, and mathematical coincidences such as the Fibonacci sequence to create visual systems shaped by rhythm, repetition, and transformation, balancing chaos and order through small geometric motifs.
                 </p>
 
                 <p>
-                    Inspired by biological forms, Amazonian kene, Andean tocapu, mapping, and symbolic language, Soph creates patterns that hold identity, ecology, rhythm, and story.
-                    Her pieces are not decorative motifs, but personal visual languages: structured, intuitive, and quietly sentient.
+                    For Soph, creating is also a way of thinking through time. Repetition stretches minutes into hours as forms emerge slowly through accumulation rather than intention. Structure gives uncertainty somewhere to unfold, while uncertainty prevents structure from becoming static.
                 </p>
 
                 <p>
-                    Working across ink, print, embroidery, and gold work, Soph builds bespoke compositions from initials, symbols, organic forms, and repeated marks.
-                    Each work becomes a living map — part artwork, part archive, part pattern system.
+                    Working across ink, print, embroidery, and goldwork, Soph creates bespoke pieces using initials, symbols, organic forms, and repeated marks. Each work becomes a personal visual language, balancing structure, story, and intuition.
                 </p>
 
-                <p class="home-closing-line">
-                    A living cartography of pattern merging nature and indigenous textile cosmologies into a sentient system.
-                </p>
             </div>
         </section>
     </main>
@@ -57,7 +61,7 @@
     <footer class="site-footer">
         <div class="container footer-wrap">
             <p>Amsterdam & London</p>
-            <a href="mailto:sjmrushton@gmail.com">sjmrushton@gmail.com</a>
+            <a class="email-link" href="mailto:sjmrushton@gmail.com">sjmrushton@gmail.com</a>
         </div>
     </footer>
 
