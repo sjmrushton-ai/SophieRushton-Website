@@ -3,101 +3,69 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="refresh" content="0;url=index.html">
-    <title>Inspiration | SOPH RUSHTON</title>
+    <meta name="description" content="Inspiration and textile research notes from Sophie Rushton.">
+    <title>Inspiration | Sophie Rushton</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
-<body>
-    <nav class="navbar">
-        <div class="container">
-            <div class="nav-brand">SOPH RUSHTON</div>
-            <div class="nav-about">
-                <a href="about.html">ABOUT</a>
-            </div>
-            <ul class="nav-menu">
-                <li><a href="index.html">HOME</a></li>
-                <li><a href="press.html">PRESS</a></li>
-                <li><a href="shop.html">SHOP</a></li>
-                <li><a href="inspiration.html">INSPIRATION</a></li>
-                <li><a href="contact.html">CONTACT</a></li>
-            </ul>
-            <button class="menu-toggle" aria-label="Toggle menu">
+<body class="inspiration-page">
+    <header class="site-header">
+        <div class="container nav-wrap">
+            <a class="brand" href="index.html" aria-label="Home">
+                <img src="assets/logo.png" alt="Sophie Rushton logo">
+            </a>
+            <button class="menu-toggle" aria-expanded="false" aria-controls="primary-nav" aria-label="Toggle menu">
                 <span></span>
                 <span></span>
                 <span></span>
             </button>
+            <nav id="primary-nav" class="site-nav" aria-label="Primary">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="inspiration.html" aria-current="page">Inspiration</a>
+                <a href="press.html">Press</a>
+                <a href="contact.html">Contact</a>
+            </nav>
         </div>
-    </nav>
+    </header>
 
-    <section class="page-hero">
-        <div class="container">
-            <h1 class="page-title title-artwork">
-                <img src="assets/titles/inspiration-title.svg" alt="Inspiration">
-            </h1>
-        </div>
-    </section>
-
-    <section class="inspiration-section">
-        <div class="container">
-            <div class="inspiration-content">
-                <div class="inspiration-left">
-                    <h2 class="inspiration-heading">Sources of Inspiration</h2>
-                </div>
-                <div class="inspiration-right">
-                    <p>Our patterns are born from a deep appreciation of the natural world. We find inspiration in the organic forms that surround us—from the intricate patterns of leaves and flowers to the flowing lines of water and the structured beauty of natural textures.</p>
-                </div>
+    <main class="page-main">
+        <section class="section">
+            <div class="container prose inspiration-prose">
+                <p class="eyebrow">Inspiration</p>
+                <h1 class="title-artwork">
+                    <img src="assets/titles/inspiration-title.svg" alt="Inspiration">
+                </h1>
+                <figure class="inspiration-feature-image">
+                    <a href="https://www.instagram.com/p/DYA8fdtCs0r/?igsh=azJ5N29uODY4ejNt" target="_blank" rel="noopener noreferrer" aria-label="Open Instagram post in new tab">
+                        <img src="assets/inspiration-benin-artwork.png" alt="Fon-inspired textile artwork from Benin featuring symbolic geometric patterns">
+                    </a>
+                </figure>
+                <p>
+                    Textiles can hold entire histories within them. Across many cultures, pattern becomes a language through which spirituality, protection, ancestry, and collective memory are carried from one generation to the next.
+                </p>
+                <p>
+                    On a recent trip to Benin, Ouidah, the cradle of Vodun culture in West Africa, I brought home this original Fon artwork of an Egungun garment. Having had the opportunity to witness an Egungun ceremony while I was there, I began to understand how deeply textiles, movement, ritual, and memory are connected within Yorùbá and Fon traditions.
+                </p>
+                <p>
+                    In Egungun masquerades, layered garments of appliqué, embroidery, fringe, and cowries transform the wearer into a living embodiment of ancestry and a portal through which ancestral spirits become present. As the textiles move, the patterns themselves seem to come alive, becoming rhythm, ritual, and spiritual force. These incredible garments and patterns are not simply decorative, but form a visual system and symbolic language through which history, spirituality, status, and cultural memory are carried forward across generations.
+                </p>
+                <p>
+                    The painting echoes many of these same traditions. The white motifs represent cowrie shells, symbols long associated across Benin and broader Yorùbá-Fon culture with prosperity, protection, fertility, and sacred power. The geometric forms also draw on the royal Fon appliqué traditions of Abomey, from the former Kingdom of Dahomey, where cloth functioned as both storytelling device and cultural archive.
+                </p>
+                <p>
+                    I feel incredibly fortunate to have experienced such a deeply rooted and culturally rich tradition firsthand. A huge thank you to @louise_fenton for bringing us there and for generously sharing her knowledge and research throughout the experience.
+                </p>
             </div>
-        </div>
-    </section>
+        </section>
+    </main>
 
-    <section class="inspiration-gallery-section">
-        <div class="container">
-            <div class="inspiration-grid">
-                <div class="inspiration-item large">
-                    <div class="inspiration-image insp-img-1"></div>
-                    <div class="inspiration-caption">
-                        <h3>Botanical Studies</h3>
-                        <p>Detailed observations of plant forms and structures</p>
-                    </div>
-                </div>
-                <div class="inspiration-item">
-                    <div class="inspiration-image insp-img-2"></div>
-                    <div class="inspiration-caption">
-                        <h3>Natural Textures</h3>
-                        <p>Exploring surface patterns in nature</p>
-                    </div>
-                </div>
-                <div class="inspiration-item">
-                    <div class="inspiration-image insp-img-3"></div>
-                    <div class="inspiration-caption">
-                        <h3>Organic Forms</h3>
-                        <p>The beauty of natural shapes and curves</p>
-                    </div>
-                </div>
-                <div class="inspiration-item">
-                    <div class="inspiration-image insp-img-4"></div>
-                    <div class="inspiration-caption">
-                        <h3>Seasonal Patterns</h3>
-                        <p>How nature changes through the seasons</p>
-                    </div>
-                </div>
-                <div class="inspiration-item large">
-                    <div class="inspiration-image insp-img-5"></div>
-                    <div class="inspiration-caption">
-                        <h3>Color Palettes</h3>
-                        <p>Drawing color inspiration from natural environments</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <footer class="footer">
-        <div class="container">
-            <p>&copy; 2024 SOPH RUSHTON. All rights reserved.</p>
+    <footer class="site-footer">
+        <div class="container footer-wrap">
+            <p>Amsterdam & London</p>
+            <a class="email-link" href="mailto:sjmrushton@gmail.com">sjmrushton@gmail.com</a>
         </div>
     </footer>
 

@@ -1,4 +1,4 @@
-# Soph Rushton Website
+# Sophie Rushton Website
 
 Modern responsive static website with:
 
