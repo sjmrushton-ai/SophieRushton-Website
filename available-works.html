@@ -3,24 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Sophie Rushton creates bespoke, nature-led pattern systems and textile artworks from studios in Amsterdam and London.">
-    <title>Sophie Rushton | Pattern Design Studio</title>
+    <meta name="description" content="Available works by Sophie Rushton. Original mixed media artworks from studios in Amsterdam and London.">
+    <title>Available Works | Sophie Rushton</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400&family=Inter:wght@400;500;600&family=Playfair+Display:wght@500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
-<body class="home-page">
+<body class="interior-page">
     <header class="home-header">
         <a class="brand home-brand" href="index.html" aria-label="Home">
             <img src="assets/logo-signature.png" alt="Sophie Rushton logo">
         </a>
 
         <nav id="primary-nav" class="home-nav site-nav" aria-label="Primary">
-            <a href="index.html" aria-current="page">Home</a>
+            <a href="index.html">Home</a>
             <a href="inspiration.html">Inspiration</a>
             <a href="press.html">Press</a>
-            <a href="available-works.html">Available Works</a>
+            <a href="available-works.html" aria-current="page">Available Works</a>
         </nav>
 
         <button class="menu-toggle home-menu-toggle" aria-expanded="false" aria-controls="primary-nav" aria-label="Toggle menu">
@@ -30,41 +30,28 @@
         </button>
     </header>
 
-    <main>
-        <section class="home-hero" aria-labelledby="home-headline">
+    <main class="available-works-main">
+        <section class="home-hero" aria-labelledby="page-headline">
             <p class="home-hero__aside home-hero__aside--left">[ Pattern ]</p>
-            <h1 id="home-headline" class="home-hero__title">
+            <h1 id="page-headline" class="home-hero__title">
                 <span class="home-hero__title-part">S O P H I E</span>
                 <span class="home-hero__title-part">R U S H T O N</span>
             </h1>
             <p class="home-hero__aside home-hero__aside--right">[ Studio ]</p>
         </section>
 
-        <section class="home-hero-art" aria-hidden="true">
-            <div class="home-hero-art__frame" id="homeHeroArtFrame">
-                <div class="home-hero-art__strip">
-                    <img class="home-hero-art__tile" src="assets/hero-artwork-landscape.png" alt="" width="1024" height="441" decoding="async" fetchpriority="high">
+        <section class="interior-content available-works-intro">
+            <div class="container">
+                <div class="interior-content__inner">
+                    <h2 class="available-works-heading">Available Works</h2>
+                    <p class="available-works-lead">
+                        Original mixed media artworks, each a unique visual language shaped by rhythm, repetition, and transformation.
+                    </p>
                 </div>
             </div>
         </section>
 
-        <section class="home-about" aria-labelledby="home-about-heading">
-            <div class="container">
-                <div class="home-about__content prose">
-                    <p class="eyebrow" id="home-about-heading">About</p>
-                    <p class="home-about__intro">SOPHIE RUSHTON IS AN ARTIST CREATING BESPOKE TEXTILE WORKS THAT TRANSFORM PERSONAL STORIES INTO CONTEMPORARY HEIRLOOMS.</p>
-                    <p>Each commission begins with a conversation. Together, we explore the people, places, memories and moments that have shaped your life before translating them into a visual language expressed through pattern, rhythm and repetition.</p>
-                    <p>Inspired by cultures that have long understood textiles as more than decoration, and as vessels for memory, knowledge and our relationship with the natural world, I create works that celebrate connection. Not only to landscape, but also to family, identity and the stories that shape who we are.</p>
-                    <p>Rather than reproducing historical traditions, I draw inspiration from their philosophy that pattern can carry meaning. Every composition is developed specifically for the individual, weaving together symbols, organic forms and repeated motifs into a visual language that is entirely your own.</p>
-                    <p>Working across ink, print, embroidery and textiles, each piece is built slowly and intentionally. Repetition becomes a way of thinking, making and remembering, allowing every artwork to evolve through time and careful craftsmanship.</p>
-                    <p>I think of these works as personal textile cosmologies, intimate maps of memory, identity and belonging. They are designed to be lived with, treasured and passed from one generation to the next.</p>
-                    <h2 class="home-about__subheading">A THOUGHTFUL WAY OF MAKING</h2>
-                    <p>Sustainability is fundamental to my practice.</p>
-                    <p>I believe that meaningful objects deserve an equally considered process. Wherever possible, I work with surplus fabrics, responsibly sourced materials and small-scale production, creating pieces that value longevity over excess. Every decision is made with care, both for the people each artwork is created for and for the resources from which it is made.</p>
-                    <p>Because the most enduring objects are those that tell a story worth keeping.</p>
-                </div>
-            </div>
-        </section>
+        <div id="artworks-list" class="available-works-list container" aria-label="Available works"></div>
     </main>
 
     <footer class="site-footer home-footer">
@@ -99,6 +86,6 @@
     </footer>
 
     <script src="script.js"></script>
-    <script src="home-art.js"></script>
+    <script src="available-works.js"></script>
 </body>
 </html>

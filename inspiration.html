@@ -7,65 +7,99 @@
     <title>Inspiration | Sophie Rushton</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400&family=Inter:wght@400;500;600&family=Playfair+Display:wght@500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
-<body class="inspiration-page">
-    <header class="site-header">
-        <div class="container nav-wrap">
-            <a class="brand" href="index.html" aria-label="Home">
-                <img src="assets/logo.png" alt="Sophie Rushton logo">
-            </a>
-            <button class="menu-toggle" aria-expanded="false" aria-controls="primary-nav" aria-label="Toggle menu">
-                <span></span>
-                <span></span>
-                <span></span>
-            </button>
-            <nav id="primary-nav" class="site-nav" aria-label="Primary">
-                <a href="index.html">Home</a>
-                <a href="about.html">About</a>
-                <a href="inspiration.html" aria-current="page">Inspiration</a>
-                <a href="press.html">Press</a>
-                <a href="contact.html">Contact</a>
-            </nav>
-        </div>
+<body class="interior-page">
+    <header class="home-header">
+        <a class="brand home-brand" href="index.html" aria-label="Home">
+            <img src="assets/logo-signature.png" alt="Sophie Rushton logo">
+        </a>
+
+        <nav id="primary-nav" class="home-nav site-nav" aria-label="Primary">
+            <a href="index.html">Home</a>
+            <a href="inspiration.html" aria-current="page">Inspiration</a>
+            <a href="press.html">Press</a>
+            <a href="available-works.html">Available Works</a>
+        </nav>
+
+        <button class="menu-toggle home-menu-toggle" aria-expanded="false" aria-controls="primary-nav" aria-label="Toggle menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
     </header>
 
-    <main class="page-main">
-        <section class="section">
-            <div class="container prose inspiration-prose">
-                <p class="eyebrow">Inspiration</p>
-                <h1 class="title-artwork">
-                    <img src="assets/titles/inspiration-title.svg" alt="Inspiration">
-                </h1>
-                <figure class="inspiration-feature-image">
-                    <a href="https://www.instagram.com/p/DYA8fdtCs0r/?igsh=azJ5N29uODY4ejNt" target="_blank" rel="noopener noreferrer" aria-label="Open Instagram post in new tab">
-                        <img src="assets/inspiration-benin-artwork.png" alt="Fon-inspired textile artwork from Benin featuring symbolic geometric patterns">
-                    </a>
-                </figure>
-                <p>
-                    Textiles can hold entire histories within them. Across many cultures, pattern becomes a language through which spirituality, protection, ancestry, and collective memory are carried from one generation to the next.
-                </p>
-                <p>
-                    On a recent trip to Benin, Ouidah, the cradle of Vodun culture in West Africa, I brought home this original Fon artwork of an Egungun garment. Having had the opportunity to witness an Egungun ceremony while I was there, I began to understand how deeply textiles, movement, ritual, and memory are connected within Yorùbá and Fon traditions.
-                </p>
-                <p>
-                    In Egungun masquerades, layered garments of appliqué, embroidery, fringe, and cowries transform the wearer into a living embodiment of ancestry and a portal through which ancestral spirits become present. As the textiles move, the patterns themselves seem to come alive, becoming rhythm, ritual, and spiritual force. These incredible garments and patterns are not simply decorative, but form a visual system and symbolic language through which history, spirituality, status, and cultural memory are carried forward across generations.
-                </p>
-                <p>
-                    The painting echoes many of these same traditions. The white motifs represent cowrie shells, symbols long associated across Benin and broader Yorùbá-Fon culture with prosperity, protection, fertility, and sacred power. The geometric forms also draw on the royal Fon appliqué traditions of Abomey, from the former Kingdom of Dahomey, where cloth functioned as both storytelling device and cultural archive.
-                </p>
-                <p>
-                    I feel incredibly fortunate to have experienced such a deeply rooted and culturally rich tradition firsthand. A huge thank you to @louise_fenton for bringing us there and for generously sharing her knowledge and research throughout the experience.
-                </p>
+    <main>
+        <section class="home-hero" aria-labelledby="page-headline">
+            <p class="home-hero__aside home-hero__aside--left">[ Pattern ]</p>
+            <h1 id="page-headline" class="home-hero__title">
+                <span class="home-hero__title-part">S O P H I E</span>
+                <span class="home-hero__title-part">R U S H T O N</span>
+            </h1>
+            <p class="home-hero__aside home-hero__aside--right">[ Studio ]</p>
+        </section>
+
+        <section class="interior-content">
+            <div class="container">
+                <div class="interior-content__inner interior-content__inner--wide prose inspiration-prose">
+                    <p class="eyebrow">Inspiration</p>
+                    <h2 class="title-artwork">
+                        <img src="assets/titles/inspiration-title.svg" alt="Inspiration">
+                    </h2>
+                    <figure class="inspiration-feature-image">
+                        <a href="https://www.instagram.com/p/DYA8fdtCs0r/?igsh=azJ5N29uODY4ejNt" target="_blank" rel="noopener noreferrer" aria-label="Open Instagram post in new tab">
+                            <img src="assets/inspiration-benin-artwork.png" alt="Fon-inspired textile artwork from Benin featuring symbolic geometric patterns">
+                        </a>
+                    </figure>
+                    <p>
+                        Textiles can hold entire histories within them. Across many cultures, pattern becomes a language through which spirituality, protection, ancestry, and collective memory are carried from one generation to the next.
+                    </p>
+                    <p>
+                        On a recent trip to Benin, Ouidah, the cradle of Vodun culture in West Africa, I brought home this original Fon artwork of an Egungun garment. Having had the opportunity to witness an Egungun ceremony while I was there, I began to understand how deeply textiles, movement, ritual, and memory are connected within Yorùbá and Fon traditions.
+                    </p>
+                    <p>
+                        In Egungun masquerades, layered garments of appliqué, embroidery, fringe, and cowries transform the wearer into a living embodiment of ancestry and a portal through which ancestral spirits become present. As the textiles move, the patterns themselves seem to come alive, becoming rhythm, ritual, and spiritual force. These incredible garments and patterns are not simply decorative, but form a visual system and symbolic language through which history, spirituality, status, and cultural memory are carried forward across generations.
+                    </p>
+                    <p>
+                        The painting echoes many of these same traditions. The white motifs represent cowrie shells, symbols long associated across Benin and broader Yorùbá-Fon culture with prosperity, protection, fertility, and sacred power. The geometric forms also draw on the royal Fon appliqué traditions of Abomey, from the former Kingdom of Dahomey, where cloth functioned as both storytelling device and cultural archive.
+                    </p>
+                    <p>
+                        I feel incredibly fortunate to have experienced such a deeply rooted and culturally rich tradition firsthand. A huge thank you to @louise_fenton for bringing us there and for generously sharing her knowledge and research throughout the experience.
+                    </p>
+                </div>
             </div>
         </section>
     </main>
 
-    <footer class="site-footer">
+    <footer class="site-footer home-footer">
         <div class="container footer-wrap">
-            <p>Amsterdam & London</p>
-            <a class="email-link" href="mailto:sjmrushton@gmail.com">sjmrushton@gmail.com</a>
+            <div class="footer-columns">
+                <div class="footer-content">
+                    <p class="footer-location">AMSTERDAM & LONDON</p>
+                    <div class="footer-contact" aria-label="Contact">
+                <p class="footer-contact__lead">OPEN FOR SELECTED COLLABORATIONS AND COMMISSIONS.</p>
+                <p class="footer-contact__text">FOR BESPOKE ARTWORK, CREATIVE PARTNERSHIPS, OR PROJECT ENQUIRIES, PLEASE GET IN TOUCH.</p>
+                <p><a class="email-link" href="mailto:sjmrushton@gmail.com">sjmrushton@gmail.com</a></p>
+                <p><a class="footer-contact__phone" href="tel:+447896653019">+44 7896653019</a></p>
+                <div class="footer-contact__icons">
+                    <a class="instagram-icon-link" href="https://www.instagram.com/sophrushtonart/?igsh=dzE1a2Z4eHlkZGw3&utm_source=qr#" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                        <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                            <path d="M7.75 2.5h8.5a5.25 5.25 0 0 1 5.25 5.25v8.5a5.25 5.25 0 0 1-5.25 5.25h-8.5a5.25 5.25 0 0 1-5.25-5.25v-8.5A5.25 5.25 0 0 1 7.75 2.5Zm0 1.5A3.75 3.75 0 0 0 4 7.75v8.5A3.75 3.75 0 0 0 7.75 20h8.5A3.75 3.75 0 0 0 20 16.25v-8.5A3.75 3.75 0 0 0 16.25 4h-8.5Zm9.1 1.15a.95.95 0 1 1 0 1.9.95.95 0 0 1 0-1.9ZM12 7a5 5 0 1 1 0 10 5 5 0 0 1 0-10Zm0 1.5a3.5 3.5 0 1 0 0 7 3.5 3.5 0 0 0 0-7Z"/>
+                        </svg>
+                    </a>
+                    <a class="instagram-icon-link" href="https://substack.com/@sophierushton" target="_blank" rel="noopener noreferrer" aria-label="Substack">
+                        <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                            <path d="M4 3h16v2H4V3Zm0 4h16v2H4V7Zm0 4h16v2H4v-2Zm0 4.25 8 4.75 8-4.75V13.5H4v1.75Z"/>
+                        </svg>
+                    </a>
+                </div>
+                </div>
+                </div>
+                <a class="footer-brand" href="index.html" aria-label="Home">
+                    <img src="assets/logo-signature.png" alt="Sophie Rushton" width="846" height="786" decoding="async" loading="lazy">
+                </a>
+            </div>
         </div>
     </footer>
 

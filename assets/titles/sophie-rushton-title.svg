@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 168" role="img" aria-label="SOPHIE RUSHTON">
+<g fill="none" stroke="#3A3E2C" stroke-linecap="round" stroke-linejoin="round">
+  <!-- S — tall brush, two separate pulls -->
+  <path d="M 20 64 Q 10 24 46 8 Q 86 -4 98 38 Q 106 72 78 88" stroke-width="10.4" opacity="0.94"/>
+  <path d="M 20 64 Q 10 24 46 8 Q 86 -4 98 38 Q 106 72 78 88" stroke-width="5.8" opacity="0.40"/>
+  <path d="M 78 88 Q 102 104 98 132 Q 86 162 42 152 Q 12 142 14 110 Q 18 84 44 72" stroke-width="10.6" opacity="0.93"/>
+  <path d="M 78 88 Q 102 104 98 132 Q 86 162 42 152 Q 12 142 14 110 Q 18 84 44 72" stroke-width="5.9" opacity="0.40"/>
+
+  <!-- O -->
+  <path d="M 116 86 Q 102 58 134 48 Q 162 40 168 72 Q 174 104 152 116 Q 124 128 104 108 Q 96 92 116 86" stroke-width="9.6" opacity="0.95"/>
+  <path d="M 116 86 Q 102 58 134 48 Q 162 40 168 72 Q 174 104 152 116 Q 124 128 104 108 Q 96 92 116 86" stroke-width="5.4" opacity="0.40"/>
+
+  <!-- P -->
+  <path d="M 170 10 Q 164 78 172 154" stroke-width="10.0" opacity="0.94"/>
+  <path d="M 170 10 Q 164 78 172 154" stroke-width="5.6" opacity="0.40"/>
+  <path d="M 172 14 Q 218 2 228 42 Q 234 72 202 80 Q 170 88 172 56" stroke-width="9.8" opacity="0.93"/>
+  <path d="M 172 14 Q 218 2 228 42 Q 234 72 202 80 Q 170 88 172 56" stroke-width="5.5" opacity="0.40"/>
+
+  <!-- H — left stem leans slightly -->
+  <path d="M 240 8 Q 236 76 244 156" stroke-width="9.8" opacity="0.94"/>
+  <path d="M 240 8 Q 236 76 244 156" stroke-width="5.5" opacity="0.40"/>
+  <path d="M 286 14 Q 282 82 290 150" stroke-width="9.4" opacity="0.94"/>
+  <path d="M 286 14 Q 282 82 290 150" stroke-width="5.2" opacity="0.40"/>
+  <path d="M 242 74 Q 266 68 292 76" stroke-width="8.6" opacity="0.92"/>
+  <path d="M 242 74 Q 266 68 292 76" stroke-width="4.8" opacity="0.40"/>
+
+  <!-- I — sits lower than neighbours -->
+  <path d="M 314 20 Q 332 14 350 22" stroke-width="7.4" opacity="0.92"/>
+  <path d="M 314 20 Q 332 14 350 22" stroke-width="4.1" opacity="0.40"/>
+  <path d="M 330 26 Q 332 78 328 148" stroke-width="9.0" opacity="0.94"/>
+  <path d="M 330 26 Q 332 78 328 148" stroke-width="5.0" opacity="0.40"/>
+  <path d="M 312 144 Q 330 150 352 142" stroke-width="7.2" opacity="0.91"/>
+  <path d="M 312 144 Q 330 150 352 142" stroke-width="4.0" opacity="0.40"/>
+
+  <!-- E — middle bar shortest -->
+  <path d="M 360 10 Q 356 78 364 154" stroke-width="9.6" opacity="0.94"/>
+  <path d="M 360 10 Q 356 78 364 154" stroke-width="5.4" opacity="0.40"/>
+  <path d="M 362 14 Q 408 6 422 28" stroke-width="8.2" opacity="0.92"/>
+  <path d="M 362 14 Q 408 6 422 28" stroke-width="4.6" opacity="0.40"/>
+  <path d="M 364 78 Q 398 72 408 82" stroke-width="7.6" opacity="0.91"/>
+  <path d="M 364 78 Q 398 72 408 82" stroke-width="4.2" opacity="0.40"/>
+  <path d="M 362 146 Q 412 134 424 116" stroke-width="8.0" opacity="0.92"/>
+  <path d="M 362 146 Q 412 134 424 116" stroke-width="4.5" opacity="0.40"/>
+
+  <!-- R -->
+  <path d="M 428 8 Q 424 78 432 156" stroke-width="10.0" opacity="0.94"/>
+  <path d="M 428 8 Q 424 78 432 156" stroke-width="5.6" opacity="0.40"/>
+  <path d="M 430 12 Q 478 0 490 40 Q 496 70 464 78 Q 432 86 430 54" stroke-width="9.8" opacity="0.93"/>
+  <path d="M 430 12 Q 478 0 490 40 Q 496 70 464 78 Q 432 86 430 54" stroke-width="5.5" opacity="0.40"/>
+  <path d="M 456 80 Q 476 104 494 158" stroke-width="9.2" opacity="0.93"/>
+  <path d="M 456 80 Q 476 104 494 158" stroke-width="5.1" opacity="0.40"/>
+
+  <!-- U — single brush bowl -->
+  <path d="M 504 12 Q 498 82 510 140 Q 540 162 572 144 Q 588 126 590 68 Q 588 10 582 8" stroke-width="9.6" opacity="0.94"/>
+  <path d="M 504 12 Q 498 82 510 140 Q 540 162 572 144 Q 588 126 590 68 Q 588 10 582 8" stroke-width="5.4" opacity="0.40"/>
+
+  <!-- S — second: wider, lower, different rhythm -->
+  <path d="M 602 48 Q 588 18 624 12 Q 662 8 672 46 Q 680 78 648 92" stroke-width="10.0" opacity="0.93"/>
+  <path d="M 602 48 Q 588 18 624 12 Q 662 8 672 46 Q 680 78 648 92" stroke-width="5.6" opacity="0.40"/>
+  <path d="M 648 92 Q 676 108 668 136 Q 652 162 608 148 Q 580 138 586 108 Q 594 82 622 78" stroke-width="10.2" opacity="0.92"/>
+  <path d="M 648 92 Q 676 108 668 136 Q 652 162 608 148 Q 580 138 586 108 Q 594 82 622 78" stroke-width="5.7" opacity="0.40"/>
+
+  <!-- H — crossbar higher than first H -->
+  <path d="M 676 12 Q 672 80 680 152" stroke-width="9.4" opacity="0.94"/>
+  <path d="M 676 12 Q 672 80 680 152" stroke-width="5.2" opacity="0.40"/>
+  <path d="M 722 16 Q 718 84 726 148" stroke-width="9.2" opacity="0.94"/>
+  <path d="M 722 16 Q 718 84 726 148" stroke-width="5.1" opacity="0.40"/>
+  <path d="M 678 82 Q 702 78 728 84" stroke-width="8.4" opacity="0.91"/>
+  <path d="M 678 82 Q 702 78 728 84" stroke-width="4.7" opacity="0.40"/>
+
+  <!-- T — crossbar extends left further -->
+  <path d="M 742 8 Q 782 0 826 14" stroke-width="9.4" opacity="0.93"/>
+  <path d="M 742 8 Q 782 0 826 14" stroke-width="5.2" opacity="0.40"/>
+  <path d="M 782 14 Q 784 78 780 154" stroke-width="10.0" opacity="0.94"/>
+  <path d="M 782 14 Q 784 78 780 154" stroke-width="5.6" opacity="0.40"/>
+
+  <!-- O — smaller, sits higher -->
+  <path d="M 844 88 Q 834 64 858 56 Q 886 48 892 78 Q 898 108 876 118 Q 852 126 836 106 Q 830 92 844 88" stroke-width="9.0" opacity="0.94"/>
+  <path d="M 844 88 Q 834 64 858 56 Q 886 48 892 78 Q 898 108 876 118 Q 852 126 836 106 Q 830 92 844 88" stroke-width="5.0" opacity="0.40"/>
+
+  <!-- N — diagonal brush flick -->
+  <path d="M 904 154 Q 898 90 908 34 Q 912 8 916 6" stroke-width="9.6" opacity="0.94"/>
+  <path d="M 904 154 Q 898 90 908 34 Q 912 8 916 6" stroke-width="5.4" opacity="0.40"/>
+  <path d="M 916 6 Q 946 66 968 114 Q 978 142 984 154" stroke-width="9.4" opacity="0.93"/>
+  <path d="M 916 6 Q 946 66 968 114 Q 978 142 984 154" stroke-width="5.2" opacity="0.40"/>
+  <path d="M 984 154 Q 990 88 980 32 Q 974 8 970 6" stroke-width="9.4" opacity="0.94"/>
+  <path d="M 984 154 Q 990 88 980 32 Q 974 8 970 6" stroke-width="5.2" opacity="0.40"/>
+</g>
+</svg>

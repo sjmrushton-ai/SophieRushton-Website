@@ -14,29 +14,3 @@ if (menuToggle && siteNav) {
         });
     });
 }
-
-const contactForm = document.getElementById('contactForm');
-const formStatus = document.getElementById('formStatus');
-
-if (contactForm && formStatus) {
-    contactForm.addEventListener('submit', (event) => {
-        const emailField = contactForm.querySelector('#email');
-        const messageField = contactForm.querySelector('#message');
-        const emailValue = emailField ? emailField.value.trim() : '';
-        const messageValue = messageField ? messageField.value.trim() : '';
-
-        if (!emailValue || !messageValue) {
-            event.preventDefault();
-            formStatus.textContent = 'Please complete all required fields.';
-            return;
-        }
-
-        formStatus.textContent = 'Sending...';
-
-        const action = contactForm.getAttribute('action') || '';
-        if (action.includes('your-form-id')) {
-            event.preventDefault();
-            formStatus.textContent = 'Set your Formspree form ID in contact.html to enable submissions.';
-        }
-    });
-}
