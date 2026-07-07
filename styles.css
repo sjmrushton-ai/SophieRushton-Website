@@ -1791,6 +1791,18 @@ h1 {
 }
 
 /* Homepage */
+.home-page,
+.interior-page {
+    --home-ui-font-family: 'Inter', sans-serif;
+    --home-ui-font-weight: 400;
+    --home-ui-font-style: normal;
+    --home-ui-letter-spacing: 0.14em;
+    --home-ui-text-transform: uppercase;
+    --home-ui-line-height: 1.55;
+    --home-ui-font-size: 0.68rem;
+    --home-ui-font-size-title: clamp(2.35rem, 5.6vw, 4.15rem);
+}
+
 .home-page {
     background-color: #ffffff;
     --home-title-color: #3A3E2C;
@@ -1863,15 +1875,20 @@ h1 {
     padding-top: 0.15rem;
 }
 
+.home-ui-typography,
+.home-nav a {
+    font-family: var(--home-ui-font-family);
+    font-weight: var(--home-ui-font-weight);
+    font-style: var(--home-ui-font-style);
+    letter-spacing: var(--home-ui-letter-spacing);
+    text-transform: var(--home-ui-text-transform);
+    line-height: var(--home-ui-line-height);
+}
+
 .home-nav a {
     color: var(--text-medium);
     text-decoration: none;
-    font-family: 'Inter', sans-serif;
-    font-size: 0.68rem;
-    font-weight: 400;
-    letter-spacing: 0.14em;
-    text-transform: uppercase;
-    line-height: 1.55;
+    font-size: var(--home-ui-font-size);
     white-space: nowrap;
 }
 
@@ -1907,20 +1924,39 @@ h1 {
     gap: 0 clamp(1.75rem, 5vw, 3.25rem);
     margin: 0;
     padding: 0 clamp(0.5rem, 2vw, 1.5rem);
-    font-family: 'Cormorant Garamond', serif;
-    font-size: clamp(1.4rem, 3.6vw, 2.85rem);
-    font-weight: 300;
-    font-style: normal;
-    line-height: 1.35;
-    letter-spacing: 0.48em;
-    text-transform: uppercase;
     text-align: center;
     color: var(--home-title-color);
+}
+
+.home-page .home-hero__title.home-ui-typography {
+    font-size: var(--home-ui-font-size-title);
+    opacity: 0;
+    animation: home-hero-title-reveal 3s ease-out forwards;
 }
 
 .home-hero__title-part {
     display: inline-block;
     white-space: nowrap;
+}
+
+@keyframes home-hero-title-reveal {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .home-page .home-hero__title.home-ui-typography {
+        animation: none;
+        opacity: 1;
+        transform: none;
+    }
 }
 
 .home-hero__aside {
@@ -2015,41 +2051,53 @@ h1 {
 .home-about {
     padding: clamp(2rem, 5vw, 3.5rem) 0 clamp(5rem, 10vw, 8rem);
     background: #ffffff;
+    --about-body-font: 'Inter', sans-serif;
+    --about-body-size: clamp(0.82rem, 1vw, 0.88rem);
+    --about-body-weight: 400;
+    --about-body-lh: 2;
+    --about-body-ls: 0.02em;
+    --about-body-color: var(--text-medium);
+    --about-body-gap: 1.75rem;
+}
+
+.home-about .container {
+    max-width: 1480px;
 }
 
 .home-about__content {
-    max-width: 780px;
+    max-width: none;
     margin: 0;
 }
 
-.home-about__intro {
-    font-family: 'Inter', sans-serif;
-    font-size: clamp(0.82rem, 1.05vw, 0.92rem);
-    font-weight: 500;
-    line-height: 1.85;
-    letter-spacing: 0.1em;
-    color: var(--text-dark);
-    margin-bottom: 2.25rem;
+.home-about__columns {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: clamp(2.5rem, 7vw, 6rem);
+    align-items: start;
 }
 
-.home-about__subheading {
-    font-family: 'Inter', sans-serif;
-    font-size: clamp(0.74rem, 0.92vw, 0.84rem);
-    font-weight: 500;
-    line-height: 1.85;
-    letter-spacing: 0.1em;
-    color: var(--text-dark);
-    margin: 2.75rem 0 1.5rem;
-}
-
-.home-page .home-about .prose p {
+.home-page .home-about .prose p:not(.eyebrow),
+.home-page .home-about .home-about__closing {
+    font-family: var(--about-body-font);
+    font-size: var(--about-body-size);
+    font-weight: var(--about-body-weight);
+    font-style: normal;
+    line-height: var(--about-body-lh);
+    letter-spacing: var(--about-body-ls);
+    color: var(--about-body-color);
     max-width: none;
-    line-height: 2;
-    margin-bottom: 1.85rem;
+    margin: 0 0 var(--about-body-gap);
 }
 
-.home-page .home-about .prose p:last-child {
+.home-page .home-about .prose p:not(.eyebrow):last-child {
     margin-bottom: 0;
+}
+
+.home-about__closing {
+    margin: clamp(3.5rem, 7vw, 5rem) auto 0;
+    padding: clamp(1.5rem, 3vw, 2rem) 0 0;
+    text-align: center;
+    max-width: 40rem;
 }
 
 /* Interior pages — share Home design language */
@@ -2315,7 +2363,12 @@ h1 {
     }
 
     .home-nav a {
-        font-size: 0.72rem;
+        font-size: var(--home-ui-font-size);
+    }
+
+    .home-page {
+        --home-ui-font-size: 0.72rem;
+        --home-ui-font-size-title: clamp(1.85rem, 6vw, 2.45rem);
     }
 
     .home-hero {
@@ -2328,8 +2381,6 @@ h1 {
         grid-column: 1;
         flex-direction: column;
         gap: 0.75rem;
-        font-size: clamp(1.25rem, 6vw, 2rem);
-        letter-spacing: 0.36em;
     }
 
     .home-hero__aside {
@@ -2342,6 +2393,11 @@ h1 {
 
     .home-about {
         padding-bottom: 4.5rem;
+    }
+
+    .home-about__columns {
+        grid-template-columns: 1fr;
+        gap: clamp(2.5rem, 8vw, 3.5rem);
     }
 }
 
